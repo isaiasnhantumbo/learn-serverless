@@ -27,7 +27,7 @@ export async function getPostBySlug(slug: any) {
   
   const baseUrl = process.env.NODE_ENV === 'development'
   ? 'http://localhost:3000'
-  : 'https://teste.vercel.app'
+  : 'https://learn-serverless-ten.vercel.app'
 
   const thumbnailUrl = `${baseUrl}/api/thumbnail.png?title=${meta.data.title}`
 
